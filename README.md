@@ -1,5 +1,5 @@
 Unexpected behavior: file `bin/hello.ml` is linked in `doesntwork.exe`
-even though `doesntwork.ml` only depends `Hellolib.Hello` whose source 
+even though `doesntwork.ml` only depends on `Hellolib.Hello` whose source 
 is `lib/hello.ml`.
 
 Reproduction steps:
