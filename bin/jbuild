@@ -1,0 +1,11 @@
+(jbuild_version 1)
+
+(executables
+ ((names (works doesntwork))
+  (libraries (hellolib))))
+
+(alias
+ ((name runtest)
+  (deps (works.exe doesntwork.exe))
+  (action (run ./run.sh))
+))

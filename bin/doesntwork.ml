@@ -1,0 +1,2 @@
+open Hellolib;;
+Hello.hello ()
